@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .leaderboard-container {
+            width: 400px;
+            height: 600px;
+            background-color: #38e8bc; /* Color de fondo similar al de la imagen */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .leaderboard-container h1 {
+            font-size: 2.5rem;
+            color: #5a26d3; /* Color púrpura */
+            margin-bottom: 40px;
+        }
+
+        .scores {
+            font-size: 1.2rem;
+            color: #5a26d3; /* Color púrpura */
+            margin-bottom: 50px;
+        }
+
+        .scores .player {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+
+        .footer {
+            font-size: 1.5rem;
+            color: #5a26d3; /* Color púrpura */
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="leaderboard-container">
+        <!-- Título de la sala -->
+        <h1>SALA #0001</h1>
+
+        <!-- Tabla de puntuaciones -->
+        <div class="scores">
+            {% for jugador in jugadores %}
+            <div class="player">
+                <span>{{ jugador.posicion }}</span>
+                <span>{{ jugador.nombre }}</span>
+                <span>{{ jugador.puntuacion }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        
+
+        <!-- Mensaje de estado -->
+        <div class="footer">
+            Jugando...
+        </div>
+    </div>
+</body>
+</html>
