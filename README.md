@@ -1,8 +1,13 @@
 # GGV (Gestión Gym Valencia)
 
-El sistema **GGV** está diseñado para el **personal administrativo** del gimnasio, proporcionando una **interfaz web accesible y segura**. Desde esta plataforma, se pueden controlar diversas funciones del gimnasio para mejorar la eficiencia operativa.
+El sistema **ButtonBlink** está diseñado para las **personas** que quieran jugar algo que les demuestre un desafio a su reaccion y velocidad, proporcionando una **interfaz web segura**. Desde esta plataforma, se pueden controlar diversas funciones del mando diseñado.
 
 ## Clonar el Repositorio
+
+## Materiales del mando
+```bash
+
+```
 
 ```bash
 git clone https://github.com/DavainCI/ProyectoArquiPulsadores.git
@@ -29,5 +34,5 @@ Abra [http://localhost:8000](http://localhost:8000) con su navegador para ver el
 ## Integrantes:
 
 1. Davalos Benito Rodrigo
-2. Astri 
+2. Asthri Pardave Jara
 3. Panta Laban Leonardo Justo
