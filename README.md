@@ -1,13 +1,11 @@
 # ButtonBlink
 El sistema **ButtonBlink** está diseñado para las **personas** que quieran jugar algo que les demuestre un desafio a su reaccion y velocidad, proporcionando una **interfaz web segura**. Desde esta plataforma, se pueden controlar diversas funciones del mando diseñado.
 
-## Clonar el Repositorio
-
 ## Materiales del mando
 ```bash
 
 ```
-
+Clonar Repositorio
 ```bash
 git clone https://github.com/DavainCI/ProyectoArquiPulsadores.git
 cd ProyectoArquiPulsadores
