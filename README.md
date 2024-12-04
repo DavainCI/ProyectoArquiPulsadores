@@ -5,7 +5,7 @@ El sistema **ButtonBlink** está diseñado para las **personas** que quieran jug
 ```bash
 
 ```
-##Clonar Repositorio
+## Clonar Repositorio
 ```bash
 git clone https://github.com/DavainCI/ProyectoArquiPulsadores.git
 cd ProyectoArquiPulsadores
